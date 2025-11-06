@@ -2,14 +2,13 @@
 ![Java](https://img.shields.io/badge/Java-5-007396?logo=java&logoColor=white)
 ![Pioneering Mobile Tech](https://img.shields.io/badge/Pioneering_Mobile_Tech-2005-orange)
 ![Eclipse](https://img.shields.io/badge/Eclipse-IDE-2C2255?logo=eclipseide&logoColor=white)
-![License](https://img.shields.io/github/license/celsomsilva/java-superwaba-2005-en)
+![License](https://img.shields.io/github/license/celsomsilva/java-mobile-2005-en)
 
 
 
 # Sales - Java Mobile Project (2005) - English Version
 
-> **Note:** This repository contains the English-translated version of the [original SuperWaba project](https://github.com/celsomsilva/java-superwaba-2005) repository, including file names, variables, methods, and comments.
-
+> **Note:** This repository contains the English-translated version of the [original java mobile project](https://github.com/celsomsilva/java-mobile-2005) repository, including file names, variables, methods, and comments.
 
 ---
 
@@ -20,23 +19,25 @@ This repository is **work-in-progress**.
 ---
 
 
-This is a legacy project developed in 2005 using **SuperWaba**, a mobile development platform derived from the **Waba project**, an early pioneer in mobile Java development (pre-Java ME).
+This is a legacy project developed in 2005 using **Java** and the **SuperWaba** SDK — a mobile development platform derived from the **Waba project**, an early pioneer in mobile Java development (before Java ME).
 
-The main application, `Sales`, was built for mobile devices running **Palm OS** and **Windows CE** platforms.
+This commercial application, `Sales`, was built for mobile devices running **Palm OS** (eg: Zire, Tungsten, Sony Clie) and **Windows CE** platforms.
 
 ---
 
 ## About SuperWaba
 
-SuperWaba evolved from the Waba project, initially supporting Palm OS devices and later expanding to Windows CE and other platforms via SDL from version 5.0. It was a popular option in Brazil for enterprise mobile applications throughout the early 2000s.
+The SuperWaba company — led by **Guilherme Campos Hazan**, which continued the original Waba Project — was incubated at **PUC-Rio (Pontifical Catholic University of Rio de Janeiro)**.
 
-> **Note:** SuperWaba is no longer maintained. Its successor, **TotalCross**, is a modern, lightweight mobile SDK offering improved performance and cross-platform support.
+SuperWaba SDK initially supporting Palm OS devices and later expanding to Windows CE and other platforms via SDL from version 5.0. It was a popular option for enterprise mobile applications throughout the early 2000s. SuperWaba was officially adopted in large-scale projects in Brazil.
+
+> **Note:** SuperWaba was later renamed and evolved into TotalCross, a modern, lightweight mobile SDK offering improved performance and broader cross-platform support.
 
 ---
 
 ## About This Project
 
-The `Sales` application was developed in **2005** as part of one of the **startups incubated at PUC-Rio (Pontifical Catholic University of Rio de Janeiro)**.
+The Sales application and examples included in the SuperWaba package were developed in 2005 by me while working at SuperWaba.
 
 The goal was to create a portable, lightweight, and efficient mobile sales force management system for handheld devices used by sales teams in the field.
 
@@ -49,10 +50,12 @@ The goal was to create a portable, lightweight, and efficient mobile sales force
 
 ---
 
+
 ## Project Structure
 
+
 ```
-java-superwaba-2005-en/
+java-mobile-2005-en/
 └── sales/
     ├── db/
     │   ├── CustomerDB.java
@@ -112,16 +115,14 @@ java-superwaba-2005-en/
     └── SalesForce.java
 ```
 
-> **Note:** Due to the deprecation of the SuperWaba platform, this project is no longer executable. It remains available for historical and educational purposes.
 
 ---
 
 ## About the Refactoring
 
-This repository focuses on source code preservation and translation rather than execution.  
-The original SuperWaba SDK is no longer maintained, and rebuilding the environment is unnecessary for documentation purposes.
+This repository focuses on source code preservation and translation rather than execution.
 All refactoring (class, variable, and comment translation) was performed directly in Eclipse without dependency resolution.
-
+At that time, Java packages followed simple functional naming (e.g., `sales.ui.order`) instead of domain-based naming (`br.com.project...`), which became common years later with Eclipse and Maven.
 
 ---
 
@@ -144,6 +145,52 @@ In **2009**, the **Brazilian Ministry of Planning, Budget and Management**, thro
 
 
 ---
+
+
+## References & Historical Sources
+
+### General Overview
+
+* **[SuperWaba — Wikipedia (EN)](https://en.wikipedia.org/wiki/SuperWaba)** — Overview of the virtual machine, supported platforms, and evolution into TotalCross.
+* **[Programming for Palm OS — Wikibooks](https://en.wikibooks.org/wiki/Programming_for_Palm_OS/SuperWaba)** — Historical tutorial showing how to develop SuperWaba applications in Eclipse.
+
+---
+
+### Project Archives
+
+* **[SuperWaba Project on SourceForge](https://sourceforge.net/projects/superwaba/)** — Official distribution page with changelogs and downloads.
+* **[SuperWaba Releases Archive (SourceForge)](https://sourceforge.net/projects/superwaba/files/)** — Version history (v3.41 to v5.85).
+* **[SuperWaba.org (Archived)](https://web.archive.org/web/20080315000000*/superwaba.org)** — Snapshots of the original website, including notes on the TotalCross SDK.
+
+---
+
+### Academic & Institutional References
+
+* **[PUC-Rio — Incubadora Gênesis](https://www.genesis.puc-rio.br/)** — SuperWaba listed among startups incubated at the Pontifical Catholic University of Rio de Janeiro.
+* **[Maxwell PUC-Rio Repository](https://www.maxwell.vrac.puc-rio.br/)** — Academic dissertations citing SuperWaba as an incubated technology and case of internationalization.
+* **[COPPEAD/UFRJ Dissertation](https://www.coppead.ufrj.br/)** — Mentions SuperWaba as an incubated company within the Gênesis program.
+* **[UFSC — TCC: Desenvolvimento de Aplicações para Palm OS](https://repositorio.ufsc.br/bitstream/handle/123456789/183859/TCCEduardo_Milanese.pdf?isAllowed=y&sequence=-1)** — References SuperWaba IDE and SDK in academic context.
+
+---
+
+### Evolution into TotalCross
+
+* **[TotalCross — Our History](https://totalcross.com/our-history/)** — Official statement describing the rebranding and evolution from SuperWaba.
+* **[OpenSource.com (Red Hat) — “Open Source Cross-Platform Development with TotalCross”](https://opensource.com/article/20/7/totalcross-cross-platform-development)** — Article tracing the transition from SuperWaba to TotalCross and its modern applications.
+
+---
+
+### Community & Developer References
+
+* **[SuperWaba — C2 Wiki](https://wiki.c2.com/?SuperWaba)** — Community summary describing it as a Java-like VM for PDAs.
+* **[SuperWaba — DevMedia (PT)](https://www.devmedia.com.br/superwaba-introducao/1801)** — Classic Brazilian article explaining SuperWaba’s use on Palm OS, Windows CE, and Symbian.
+
+---
+
+> **Note:** The SuperWaba SDK was actively developed between 2003 and 2009, reaching version **4.50a in 2005** (used in this project) and ending at **v5.85 GPL in 2009**, before officially evolving into **TotalCross**.
+
+---
+
 
 ## Disclaimer
 
@@ -171,7 +218,7 @@ My academic and professional background includes:
 ## Contact  
 
 - [LinkedIn](https://linkedin.com/in/celso-m-silva)  
-- Or open an [issue](https://github.com/celsomsilva/java-suerwaba-2005-en/issues)
+- Or open an [issue](https://github.com/celsomsilva/java-mobile-2005-en/issues)
 
 
 
