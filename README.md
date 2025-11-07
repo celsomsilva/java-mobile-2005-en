@@ -8,7 +8,7 @@
 
 # Sales - Java Mobile Project (2005) - English Version
 
-> **Note:** This repository contains the English-translated version of the [original java mobile project](https://github.com/celsomsilva/java-mobile-2005) repository, including file names, variables, methods, and comments.
+> **Note:** This repository contains the English-translated version of the [original java mobile project](https://github.com/celsomsilva/java-mobile-2005) repository, including file names, variables and methods).
 
 ---
 
@@ -27,11 +27,11 @@ This commercial application, `Sales`, was built for mobile devices running **Pal
 
 ## About SuperWaba
 
-The SuperWaba company — led by **Guilherme Campos Hazan**, which continued the original Waba Project — was incubated at **PUC-Rio (Pontifical Catholic University of Rio de Janeiro)**.
+The SuperWaba company — led by **Guilherme Campos Hazan** — continued the original Waba Project, which began in 1999, and was later incubated at the **Pontifical Catholic University of Rio de Janeiro (PUC-Rio)**.
 
 SuperWaba SDK initially supporting Palm OS devices and later expanding to Windows CE and other platforms via SDL from version 5.0. It was a popular option for enterprise mobile applications throughout the early 2000s. SuperWaba was officially adopted in large-scale projects in Brazil.
 
-> **Note:** SuperWaba was later renamed and evolved into TotalCross, a modern, lightweight mobile SDK offering improved performance and broader cross-platform support.
+> **Note:** SuperWaba was later renamed and evolved into [TotalCross](https://github.com/TotalCross/totalcross), a modern, lightweight mobile SDK offering improved performance and broader cross-platform support.
 
 ---
 
@@ -121,8 +121,13 @@ java-mobile-2005-en/
 ## About the Refactoring
 
 This repository focuses on source code preservation and translation rather than execution.
-All refactoring (class, variable, and comment translation) was performed directly in Eclipse without dependency resolution.
+All refactoring (class and variable translation) was performed directly in Eclipse without dependency resolution.
 At that time, Java packages followed simple functional naming (e.g., `sales.ui.order`) instead of domain-based naming (`br.com.project...`), which became common years later with Eclipse and Maven.
+
+> **Note on code comments:**  
+> The original source files preserve their historical form.  
+> Comments appear in both **Portuguese** and **English**, reflecting the original 2005 code style — written manually, without automated translation tools.
+
 
 ---
 
